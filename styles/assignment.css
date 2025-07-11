@@ -171,7 +171,6 @@ nav li a {
     padding: 16px 36px;
     background-color: #ffffff;
     max-width: 1000px;
-    max-height: px;
     border-radius: 0px;
     gap: auto;
     margin: 197px 252px 197px 197px;
@@ -273,4 +272,74 @@ button:hover{
 }
 .footer-nav a:hover{
     color: aqua;
+}
+
+.feedback-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #F2EDED;
+    text-align: center;
+    border-radius: 0px;
+    display: flex;
+}
+.star-icon{
+    font-size: 1.2rem;
+    color: #FFB805;
+    margin-bottom: 10px;
+}
+.feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin: 60px;
+    display: flex;
+
+}
+.feedback-subtitle{
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.review-box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    padding: 24px 24px;
+    border-radius: 14px;
+    columns: #FFFFFF;
+    border-top: 1px solid #eee;
+}
+.reviewer-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.review{
+    display: flex;
+    justify-content: center;
+}
+.review-info{
+    text-align: center;
+}
+.reviewer-name{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    gap: 12px;
+    color: #757575;
+    justify-content: center;
+}
+.reviewer-date{
+    font: 13px;
+    color: #B3B3B3;
+    margin: 5px 0 0;
+}
+.feedback-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
