@@ -192,8 +192,8 @@ nav li a {
 }
 .right-side{
     flex: 1;
-    width: 497px;
-    height: 490px;
+    width: 1140px;
+    height: 632px;
     gap: 35px;
     padding: 16px 36px;
     justify-content: space-between;
@@ -206,17 +206,24 @@ nav li a {
 }
 label{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: bolder;
     margin-bottom: 5px;
     color: #555;
     padding: 32px 20px;
     border-radius: 10px;
 }
 inpur,textarea{
-    padding: 32px 20px;
+    padding: 32px 40px;
     border-radius: 10px;
-    color: #FFFFFF;
+    color: #4a4eff;
     margin-bottom: 20px;
+}
+.input-box{
+    padding: 32px 40px;
+    color: #4a4eff;
+}
+.placeholder{
+    color: #4E47FF;
 }
 button{
     padding: 12px 36px;
@@ -230,4 +237,40 @@ button{
 }
 button:hover{
     background-color: #0056b3;
+}
+
+/* footer */
+
+.footer{
+    background-color: #FFFFFF;
+    color: #4E47FF;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 0px;
+    gap: 8px;
+}
+.website-name{
+    font-size: 100px;
+    color: #4E47FF;
+    margin: 10px;
+}
+.subtitle{
+    font: 14px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.footer-nav a{
+    color: #151618e8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.footer-nav a:hover{
+    color: aqua;
 }
