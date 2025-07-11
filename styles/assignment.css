@@ -25,6 +25,7 @@
     color: #FFFFFF;
     padding: 12px 36px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .signup-button:hover{
     background: #5855eb;
@@ -38,9 +39,42 @@
     color: #FFFFFF;
     padding: 12px 36px;
     border-radius: 8px;
-   
+    cursor: pointer;
 }
+.btn-primary3{
+    background-color: #4E47FF;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 12px 36px;
+     border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.aection-description{
+    font-size: 24px;
+    color: #252432;
+}
+.aection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    gap: 40px;
+    padding: 60px 10px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
 
+}
+.action-left{
+    flex: 1;
+    min-width: 240px;
+}
+.aection-picture{
+    width: 403px;
+    height: 328px;
+
+}
 /* header */
 .header{
     background-image: url("../Assets/Hero-bg.png");
@@ -94,3 +128,6 @@ nav li a {
     width: 0px;
     height: 0px;
 }
+
+
+
