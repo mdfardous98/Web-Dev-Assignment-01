@@ -123,3 +123,45 @@ nav li a {
     border-radius: 48px;
 
 }
+.users-section{
+    background-color: #4E47FF;
+    width: 1140px 306px;
+    gap: 10px;
+    padding: 80px 50px;
+    text-align: center;
+    border-radius: 24px;
+}
+.stats-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 400px;
+    color: #252432;
+}
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.stat1{
+    text-align: center;
+    padding: 9px 40px;
+}
+.stat2{
+    text-align: center;
+    padding: 9px 40px;
+}
+.stat3{
+    text-align: center;
+    padding: 9px 40px;
+}
+.stat h2{
+    font-size: 32px;
+    color: #4a4eff;
+    margin-bottom: 10px;
+}
+.stat p{
+    font-size: 14px;
+    color: #555;
+    gap: 30px;
+}
